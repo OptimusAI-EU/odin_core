@@ -1,0 +1,217 @@
+{
+    "jobs": [
+        {
+            "title": "AI Coaching for Building High-Complexity Agents in n8n",
+            "description": "Seeking an AI expert to provide coaching on developing high-complexity agents using n8n",
+            "skills": [
+                "Node.js",
+                "JavaScript",
+                "n8n"
+            ],
+            "payment": null,
+            "experience": "Intermediate",
+            "proposals": "Less than 5",
+            "client": {
+                "name": "Not specified",
+                "location": "United States",
+                "rating": 4.9,
+                "reviews": null,
+                "spent": null,
+                "hire_rate": null
+            }
+        },
+        {
+            "title": "AI Automation Developer for Video AI Tools and ChatGPT",
+            "description": "Seeking an AI automation developer for video AI tools and ChatGPT",
+            "skills": [
+                "Artificial Intelligence",
+                "Machine Learning",
+                "Python",
+                "TensorFlow"
+            ],
+            "payment": null,
+            "experience": "Intermediate",
+            "proposals": "5 to 10",
+            "client": {
+                "name": "Not specified",
+                "location": "United States",
+                "rating": 4.9,
+                "reviews": null,
+                "spent": null,
+                "hire_rate": null
+            }
+        },
+        {
+            "title": "Realistic AI Model Image Generation",
+            "description": "Seeking a developer for realistic AI model image generation",
+            "skills": [
+                "AI Development",
+                "AI Model Development",
+                "Deep Learning",
+                "Computer Vision"
+            ],
+            "payment": null,
+            "experience": "Intermediate",
+            "proposals": "5 to 10",
+            "client": {
+                "name": "Not specified",
+                "location": "Australia",
+                "rating": 0.0,
+                "reviews": null,
+                "spent": null,
+                "hire_rate": null
+            }
+        },
+        {
+            "title": "AI Engineer Needed to Build Custom GPT-Powered Assistant (LangChain, OpenAI API, Python)",
+            "description": "Seeking an AI engineer to build a custom GPT-powered assistant",
+            "skills": [
+                "Flask",
+                "pandas",
+                "Chatbot",
+                "Streamlit",
+                "Python",
+                "TensorFlow",
+                "LangChain",
+                "OpenAI API"
+            ],
+            "payment": null,
+            "experience": "Expert",
+            "proposals": "Less than 5",
+            "client": {
+                "name": "Not specified",
+                "location": "Kenya",
+                "rating": 0.0,
+                "reviews": null,
+                "spent": null,
+                "hire_rate": null
+            }
+        },
+        {
+            "title": "AI Model Developer for Virtual Clothing Fitting",
+            "description": "Seeking an AI model developer for virtual clothing fitting",
+            "skills": [
+                "Artificial Intelligence",
+                "Adobe Illustrator",
+                "Adobe Photoshop",
+                "Graphic Design",
+                "Deep Learning"
+            ],
+            "payment": null,
+            "experience": "Intermediate",
+            "proposals": "Less than 5",
+            "client": {
+                "name": "Not specified",
+                "location": "Mexico",
+                "rating": 0.0,
+                "reviews": null,
+                "spent": null,
+                "hire_rate": null
+            }
+        },
+        {
+            "title": "Prompt Engineer / GPT Specialist for LinkedIn Company Categorization (Make.com + Airtable)",
+            "description": "Seeking a prompt engineer/GPT specialist for LinkedIn company categorization",
+            "skills": [
+                "Make.com",
+                "Airtable",
+                "Prompt Engineering",
+                "LLM Prompt Engineering",
+                "ChatGPT Prompt"
+            ],
+            "payment": null,
+            "experience": "Expert",
+            "proposals": "Less than 5",
+            "client": {
+                "name": "Not specified",
+                "location": "Australia",
+                "rating": 5.0,
+                "reviews": null,
+                "spent": null,
+                "hire_rate": null
+            }
+        },
+        {
+            "title": "Data Scientist Needed for Performance Data Analysis",
+            "description": "Seeking a data scientist for performance data analysis",
+            "skills": [
+                "Python",
+                "Data Analysis",
+                "Data Science",
+                "R",
+                "Statistics"
+            ],
+            "payment": null,
+            "experience": "Intermediate",
+            "proposals": "5 to 10",
+            "client": {
+                "name": "Not specified",
+                "location": "United States",
+                "rating": 4.9,
+                "reviews": null,
+                "spent": null,
+                "hire_rate": null
+            }
+        },
+        {
+            "title": "AI-Powered Dental Clinic Appointment Bot Development",
+            "description": "Seeking a developer for AI-powered dental clinic appointment bot development",
+            "skills": [
+                "Lead Generation",
+                "Chatbot Development",
+                "Python",
+                "API",
+                "Data Scraping"
+            ],
+            "payment": null,
+            "experience": "Intermediate",
+            "proposals": "20 to 50",
+            "client": {
+                "name": "Not specified",
+                "location": "United States",
+                "rating": 5.0,
+                "reviews": null,
+                "spent": null,
+                "hire_rate": null
+            }
+        },
+        {
+            "title": "Building an AI-Integrated Personal Knowledge System (Obsidian + Claude + More)",
+            "description": "Seeking a developer for building an AI-integrated personal knowledge system",
+            "skills": [
+                "Artificial Intelligence"
+            ],
+            "payment": null,
+            "experience": "Intermediate",
+            "proposals": "5 to 10",
+            "client": {
+                "name": "Not specified",
+                "location": "Canada",
+                "rating": 4.5,
+                "reviews": null,
+                "spent": null,
+                "hire_rate": null
+            }
+        },
+        {
+            "title": "Backend",
+            "description": "Seeking a backend developer",
+            "skills": [
+                "Git",
+                "Database",
+                "API"
+            ],
+            "payment": null,
+            "experience": "Expert",
+            "proposals": "5 to 10",
+            "client": {
+                "name": "Not specified",
+                "location": "USA",
+                "rating": 5.0,
+                "reviews": null,
+                "spent": null,
+                "hire_rate": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "goal": "Analyze the iris dataset in sklearn",
+    "context": "",
+    "tasks": [
+        {
+            "task_id": "1",
+            "dependent_task_ids": [],
+            "instruction": "Load the iris dataset from sklearn.",
+            "task_type": "other",
+            "code": "from sklearn.datasets import load_iris\n\n# Load the iris dataset\niris = load_iris()\nX = iris.data\ny = iris.target\nfeature_names = iris.feature_names\ntarget_names = iris.target_names\n",
+            "result": "",
+            "is_success": true,
+            "is_finished": true
+        },
+        {
+            "task_id": "2",
+            "dependent_task_ids": [
+                "1"
+            ],
+            "instruction": "Perform exploratory data analysis (EDA) on the iris dataset.",
+            "task_type": "eda",
+            "code": "import numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\n# Convert to DataFrame for easier manipulation\niris_df = pd.DataFrame(data= np.c_[iris['data'], iris['target']],\n                     columns= iris['feature_names'] + ['target'])\n\n# Display the first few rows of the DataFrame\nprint(iris_df.head())\n\n# Summary statistics\nprint(iris_df.describe())\n\n# Check for missing values\nprint(iris_df.isnull().sum())\n\n# Correlation matrix\ncorrelation_matrix = iris_df.corr()\nsns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')\nplt.show()\n\n# Pairplot to visualize relationships between features and target\nsns.pairplot(iris_df, hue='target', palette='viridis')\nplt.show()\n\n# Count plot for the target variable\nsns.countplot(x='target', data=iris_df)\nplt.show()\n",
+            "result": "   sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)  \\\n0                5.1               3.5                1.4               0.2   \n1                4.9               3.0                1.4               0.2   \n2                4.7               3.2                1.3               0.2   \n3                4.6               3.1                1.5               0.2   \n4                5.0               3.6                1.4               0.2   \n\n   target  \n0     0.0  \n1     0.0  \n2     0.0  \n3     0.0  \n4     0.0  \n       sepal length (cm)  sepal width (cm)  petal length (cm)  \\\ncount         150.000000        150.000000         150.000000   \nmean            5.843333          3.057333           3.758000   \nstd             0.828066          0.435866           1.765298   \nmin             4.300000          2.000000           1.000000   \n25%             5.100000          2.800000           1.600000   \n50%             5.800000          3.000000           4.350000   \n75%             6.400000          3.300000           5.100000   \nmax             7.900000          4.400000           6.900000   \n\n       petal width (cm)      target  \ncount        150.000000  150.000000  \nmean           1.199333    1.000000  \nstd            0.762238    0.819232  \nmin            0.100000    0.000000  \n25%            0.300000    0.000000  \n50%            1.300000    1.000000  \n75%            1.800000    2.000000  \nmax            2.500000    2.000000  \nsepal length (cm)    0\nsepal width (cm)     0\npetal length (cm)    0\npetal width (cm)     0\ntarget               0\ndtype: int64\n,,,",
+            "is_success": true,
+            "is_finished": true
+        }
+    ],
+    "task_map": {
+        "1": {
+            "task_id": "1",
+            "dependent_task_ids": [],
+            "instruction": "Load the iris dataset from sklearn.",
+            "task_type": "other",
+            "code": "from sklearn.datasets import load_iris\n\n# Load the iris dataset\niris = load_iris()\nX = iris.data\ny = iris.target\nfeature_names = iris.feature_names\ntarget_names = iris.target_names\n",
+            "result": "",
+            "is_success": true,
+            "is_finished": true
+        },
+        "2": {
+            "task_id": "2",
+            "dependent_task_ids": [
+                "1"
+            ],
+            "instruction": "Perform exploratory data analysis (EDA) on the iris dataset.",
+            "task_type": "eda",
+            "code": "import numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\n# Convert to DataFrame for easier manipulation\niris_df = pd.DataFrame(data= np.c_[iris['data'], iris['target']],\n                     columns= iris['feature_names'] + ['target'])\n\n# Display the first few rows of the DataFrame\nprint(iris_df.head())\n\n# Summary statistics\nprint(iris_df.describe())\n\n# Check for missing values\nprint(iris_df.isnull().sum())\n\n# Correlation matrix\ncorrelation_matrix = iris_df.corr()\nsns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')\nplt.show()\n\n# Pairplot to visualize relationships between features and target\nsns.pairplot(iris_df, hue='target', palette='viridis')\nplt.show()\n\n# Count plot for the target variable\nsns.countplot(x='target', data=iris_df)\nplt.show()\n",
+            "result": "   sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)  \\\n0                5.1               3.5                1.4               0.2   \n1                4.9               3.0                1.4               0.2   \n2                4.7               3.2                1.3               0.2   \n3                4.6               3.1                1.5               0.2   \n4                5.0               3.6                1.4               0.2   \n\n   target  \n0     0.0  \n1     0.0  \n2     0.0  \n3     0.0  \n4     0.0  \n       sepal length (cm)  sepal width (cm)  petal length (cm)  \\\ncount         150.000000        150.000000         150.000000   \nmean            5.843333          3.057333           3.758000   \nstd             0.828066          0.435866           1.765298   \nmin             4.300000          2.000000           1.000000   \n25%             5.100000          2.800000           1.600000   \n50%             5.800000          3.000000           4.350000   \n75%             6.400000          3.300000           5.100000   \nmax             7.900000          4.400000           6.900000   \n\n       petal width (cm)      target  \ncount        150.000000  150.000000  \nmean           1.199333    1.000000  \nstd            0.762238    0.819232  \nmin            0.100000    0.000000  \n25%            0.300000    0.000000  \n50%            1.300000    1.000000  \n75%            1.800000    2.000000  \nmax            2.500000    2.000000  \nsepal length (cm)    0\nsepal width (cm)     0\npetal length (cm)    0\npetal width (cm)     0\ntarget               0\ndtype: int64\n,,,",
+            "is_success": true,
+            "is_finished": true
+        }
+    },
+    "current_task_id": ""
+}

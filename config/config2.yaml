@@ -1,0 +1,62 @@
+# Full Example: https://github.com/geekan/MetaGPT/blob/main/config/config2.example.yaml
+# Reflected Code: https://github.com/geekan/MetaGPT/blob/main/metagpt/config2.py
+# Config Docs: https://docs.deepwisdom.ai/main/en/guide/get_started/configuration.html
+# llm:
+#   api_type: "openai"  # or azure / ollama / groq etc.
+#   model: "gpt-4-turbo"  # or gpt-3.5-turbo
+#   base_url: "https://api.openai.com/v1"  # or forward url / other llm url
+#   api_key: "YOUR_API_KEY"
+
+
+# llm:
+#   api_type: 'ollama'
+#   base_url: 'http://127.0.0.1:11434/api'
+#   # base_url: 'http://localhost:8000/v1'
+#   model: 'qwen'
+
+
+
+
+# llm:
+#   api_type: "groq"
+#   model: "llama-3.3-70b-versatile"
+#   base_url: "https://api.groq.com/openai/v1"
+#   api_key: "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"
+
+
+
+
+  # llm:
+  # api_type: "ollama"
+  # base_url: "http://127.0.0.1:11434/api"
+  # model: "qwen"
+  # # api_key: "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"
+
+
+
+  llm:
+    api_type: 'ollama'
+    base_url: 'http://127.0.0.1:11434/api'
+    model: 'qwen2.5-coder'
+    api_key: 'sk.....'
+
+
+  # llm:
+  # # Visit https://console.groq.com/keys to create api key
+  #   api_type: "openai"
+  #   base_url: 'https://api.groq.com/openai/v1'
+  #   api_key: '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'
+  #   model: 'meta-llama/llama-4-maverick-17b-128e-instruct' # llama3-8b-8192，llama3-70b-8192，llama2-70b-4096 ，mixtral-8x7b-32768，gemma-7b-it
+
+# llm:        # Change the base_url to the correct endpoint
+#     api_type: "openai"
+#     base_url: "https://openrouter.ai/api/v1"
+#     model: "deepseek/deepseek-r1-0528:free"
+#     api_key: "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"
+
+
+# llm: 
+#   api_type: "openai"
+#   base_url: "https://generativelanguage.googleapis.com/v1beta/openai/"
+#   model: "google/gemini-2.0-flash-thinking-exp:free"
+#   api_key: "AIzaSyDJemSWfzYFxiTMuN7XG6xtJSs4YMg9KPA"
